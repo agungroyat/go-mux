@@ -124,8 +124,6 @@ func TestGetProduct(t *testing.T) {
 	checkResponseCode(t, http.StatusOK, response.Code)
 }
 
-// main_test.go
-
 func addProducts(count int) {
 	if count < 1 {
 		count = 1
